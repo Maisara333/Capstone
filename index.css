@@ -1,0 +1,50 @@
+body{
+  font-family: quicksand;
+  height: 100%;
+  margin: 0;
+  padding: 10px;
+  background-image: 
+    radial-gradient(
+      farthest-corner at 40px 40px,
+     rgb(2, 48, 92) 0%,
+     rgb(0, 255, 179) 100%
+  );
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#Contact-html, #Contact-Body{
+  font-family: quicksand;
+  height: 100%;
+  margin: 0;
+  padding: 10px;
+  background-image: 
+    radial-gradient(
+      farthest-corner at 40px 40px,
+     rgb(2, 48, 92) 0%,
+     rgb(0, 255, 179) 100%
+  );
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+:hover.contact{
+  opacity: 0.6;
+  transition: 0.2s;
+}
+
+hr{
+  border: none;
+}
+
+#space-hr{
+  height: 40px;
+}
+
+#finalhr{
+  border: solid;
+  border-width: 2px;
+  border-radius: 4px;
+  border-color: white;
+  opacity: 0.2;
+}
