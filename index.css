@@ -34,8 +34,9 @@ body {
   transition: 0.3s;
 }
 .contact {
-  color: #f0f0f0;
-  text-decoration: none;
+  color: #e0e0e0;
+  text-decoration: underline;
+  font-style: italic;
 }
 hr{
   border: none;
