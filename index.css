@@ -63,3 +63,6 @@ li {
   display: inline-block;
   text-align: left;
 }
+.num{
+  text-decoration: none;
+}
