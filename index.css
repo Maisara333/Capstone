@@ -14,6 +14,22 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+hr{
+  border: none;
+}
+ul {
+  list-style-position: inside;
+  padding: 0;
+  display: inline-block;
+  text-align: left;
+}
+li {
+  text-align: left;
+
+}
+.index-body p{
+  max-width: 80%;
+}
 #Contact-html, #Contact-Body {
   font-family: 'Roboto', Times, serif, sans-serif;
   color: #f0f0f0;
@@ -38,9 +54,6 @@ body {
   text-decoration: underline;
   font-style: italic;
 }
-hr{
-  border: none;
-}
 #space-hr{
   height: 40px;
 }
@@ -51,16 +64,7 @@ hr{
   border-color: white;
   opacity: 0.2;
 }
-ul {
-  list-style-position: inside;
-  padding: 0;
-  display: inline-block;
-  text-align: left;
-}
-li {
-  text-align: left;
-}
-.container {
+.container{
   display: inline-block;
   text-align: left;
 }
