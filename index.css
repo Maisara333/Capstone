@@ -1,73 +1,70 @@
-body {
+html {
   text-align: center;
-  font-family: 'Lato', sans-serif ;
+  font-family: 'Lato', sans-serif;
   color: #f0f0f0;
   height: 100%;
   margin: 0;
   padding: 10px;
-  background-image: 
-    radial-gradient(
-      farthest-corner at 40px 40px,
-      rgb(2, 48, 92) 2%,
-      rgb(17, 136, 100) 100%
-    );
+  background-image: radial-gradient(
+    farthest-corner at 40px 40px,
+    rgb(2, 48, 92) 2%,
+    rgb(17, 136, 100) 100%
+  );
   background-size: cover;
   background-attachment: fixed;
 }
-hr{
+
+hr {
   border: none;
 }
+
 ul {
   list-style-position: inside;
   padding: 0;
   display: inline-block;
   text-align: left;
 }
+
 li {
   text-align: left;
-
 }
-.index-body p{
+
+#finalhr {
+  border: solid 2px white;
+  border-radius: 4px;
+  opacity: 0.2;
+}
+
+#space-hr {
+  height: 40px;
+}
+
+.index-body p {
   max-width: 80%;
 }
-#Contact-html, #Contact-Body {
-  font-family: 'Roboto', Times, serif, sans-serif;
-  color: #f0f0f0;
-  height: 100%;
-  margin: 0;
-  padding: 10px;
-  background-image: 
-    radial-gradient(
-      farthest-corner at 40px 40px,
-      rgb(2, 48, 92) 0%,
-      rgb(17, 136, 100) 100%
-    );
-  background-size: cover;
-  background-attachment: fixed;
-}
-:hover.contact {
-  opacity: 0.3;
-  transition: 0.3s;
-}
+
 .contact {
   color: #e0e0e0;
   text-decoration: underline;
   font-style: italic;
+  transition: 0.6s;
 }
-#space-hr{
-  height: 40px;
+
+.contact:hover {
+  opacity: 0.7;
 }
-#finalhr{
-  border: solid;
-  border-width: 2px;
-  border-radius: 4px;
-  border-color: white;
-  opacity: 0.2;
-}
-.container{
+
+.container {
   display: inline-block;
   text-align: left;
 }
-.num{
+
+.num {
   text-decoration: none;
+}
+
+#bottom-contact {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
 }
